@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@source "../node_modules/@ferrucc-io/emoji-picker";
+@theme {
+  --animate-toast-enter: toast-enter 0.2s ease-out forwards;
+  --animate-toast-leave: toast-leave 0.1s ease-in forwards;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-shadows: var(--shadows);
+}
+
+@layer base {
+  :root {
+    --background: #F8F9FA;
+    --foreground: #111827;
+    --card: #f1f3f4;
+    --border: #e5e7eb;
+    --primary: #1a73e8;
+    --primary-foreground: #F8F9FA;
+    --muted: #e5e7eb;
+    --muted-foreground: #4b5563;
+    --shadows: #adadad;
+  }
+
+
+  .dark {
+    --background: #1c1f26;
+    --foreground: #f9fafb;
+    --card: #1f2937;
+    --border: #374151;
+    --primary: #3b82f6;
+    --primary-foreground: #F8F9FA;
+    --muted: #374151;
+    --muted-foreground: #9ca3af; 
+    --shadows: #374151;
+  }
+}
+
+@keyframes toast-enter {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes toast-leave {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+
+.gmail-font {
+  font-family: 'Roboto', sans-serif;
+  color: #5f6368; 
+  font-weight: 400;
+}
+
+.normal-gmail-font {
+  font-family: 'Roboto', sans-serif;
+  color: #393a3d; 
+  font-weight: 400;
+}
+
+
