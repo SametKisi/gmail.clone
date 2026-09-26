@@ -2,6 +2,8 @@
 
 A full-stack Gmail clone with a real inbox experience: compose, folders, trash, starring, and Gmail account integration for sending mail — built as a way to go deep on React state management, auth architecture, and API integration.
 
+Live Demo: https://gmail-clone-omega-three.vercel.app/
+
 ## ✨ Features
 
 - Inbox, folders, and Trash with bulk actions (select, delete, restore)
