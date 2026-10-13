@@ -22,7 +22,7 @@ Live Demo: https://gmail-clone-omega-three.vercel.app/
 
 | Login | Compose |
 |---|---|
-| ![Login view]([docs/screenshots/3.png](https://raw.githubusercontent.com/SametKisi/gmail.clone/refs/heads/main/docs/screenshots/3.png)) | ![Compose view](docs/screenshots/4.png) |
+| ![Login view]([docs/screenshots/3.png) | ![Compose view](docs/screenshots/4.png) |
 
 | MailIn | Main |
 |---|---|
